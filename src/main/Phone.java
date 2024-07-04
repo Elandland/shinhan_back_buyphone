@@ -1,14 +1,10 @@
 package src.main;
 
-public interface Phone {
+public abstract class Phone {
 
-    void buy();
-    void turnOn();
-    void printMsg();
-    default void buyProcess(){
-        buy();
-        turnOn();
-        printMsg();
-    }
+    abstract void buy(String name);
+
+    abstract void turnOn(String name);
+    abstract void printMsg();
 
 }

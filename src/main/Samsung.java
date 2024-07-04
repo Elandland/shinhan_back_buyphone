@@ -1,21 +1,16 @@
 package src.main;
 
-public class Samsung implements Phone{
+public class Samsung extends Phone{
 
-    String customer;
 
-    public Samsung(String customer) {
-        this.customer = customer;
+    @Override
+    public void buy(String name) {
+        System.out.println(name+"님이 삼송폰을 구매했습니다.");
     }
 
     @Override
-    public void buy() {
-        System.out.println(customer+"님이 삼송폰을 구매했습니다.");
-    }
-
-    @Override
-    public void turnOn() {
-        System.out.println(customer+"님이 삼송폰을 켰습니다.");
+    public void turnOn(String name) {
+        System.out.println(name+"님이 삼송폰을 켰습니다.");
     }
 
     @Override
