@@ -6,7 +6,7 @@
 Apple과 Samsung class로 implement처리
 
 
-**수정**
-Person class추가 후 buy와 turnOn은 person에서 사용할 수 있도록
-printMsg는 phone이 처리할 수 있도록 설정
+**수정**></br>
+Person class추가 후 buy와 turnOn은 person에서 사용할 수 있도록</br>
+printMsg는 phone이 처리할 수 있도록 설정</br>
 interface에서 추상 class로 변경
